@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaswat Raj - Personal Website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#projects">Projects</a>
+                    <div class="dropdown-content">
+                        <a href="#project-one">Project One</a>
+                        <a href="#project-two">Project Two</a>
+                        <a href="#project-three">Project Three</a>
+                    </div>
+                </li>
+
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section container">
+            <h1><span>Welcome</span> <span>to</span> <span>My</span> <span>Portfolio</span></h1>
+            <p>I'm Shaswat Raj, a passionate developer.</p>
+            <!-- Animation elements will be added here -->
+        </section>
+
+        <section id="about" class="about-section container">
+            <h2>About Me</h2>
+        
+            <h3>Education</h3>
+            <br>
+            <ul>
+                <li><strong>Studying Computer Science</strong> - Dr DY Patil</li>
+                <li><strong>High School Diploma</strong> - Dr DY Patil</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Git</li>
+            </ul>
+            <h3>Interests</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Machine Learning</li>
+                <li>Data Science</li>
+                <li>Cybersecurity</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects-section container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Project One</h3>
+                    <p>A brief description of Project One. This project involved [mention technologies or concepts].</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project Two</h3>
+                    <p>A brief description of Project Two. This project involved [mention technologies or concepts].</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project Three</h3>
+                    <p>A brief description of Project Three. This project involved [mention technologies or concepts].</p>
+                    <a href="#" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+        <section id="blog" class="blog-section container">
+            <h2>My Blog</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3>Blog Post Title 1</h3>
+                    <p class="post-meta">Date: October 26, 2023 | Category: Web Development</p>
+                    <p>This is a summary of the first blog post. It talks about exciting new developments in web technologies...</p>
+                    <a href="#" class="btn">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <h3>Blog Post Title 2</h3>
+                    <p class="post-meta">Date: October 20, 2023 | Category: Programming</p>
+                    <p>This is a summary of the second blog post. It delves into the intricacies of efficient algorithms...</p>
+                    <a href="#" class="btn">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="tasks" class="tasks-section container">
+            <h2>My Tasks</h2>
+            <div class="task-input">
+                <input type="text" id="new-task" placeholder="Add a new task...">
+                <button id="add-task" class="btn">Add Task</button>
+            </div>
+            <ul id="task-list" class="task-list">
+                <!-- Task items will be added here dynamically -->
+            </ul>
+        </section>
+
+        <section id="achievements" class="achievements-section container">
+            <h2>School Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <h3>Achievement One</h3>
+                    <p>Description of the first achievement.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>Achievement Two</h3>
+                    <p>Description of the second achievement.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>Achievement Three</h3>
+                    <p>Description of the third achievement.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content will go here -->
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
